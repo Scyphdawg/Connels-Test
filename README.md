@@ -25,3 +25,6 @@ To setup this project please download and install terraform and Azure CLI then p
 This project utilizies a B1 app service plan as this is cost effective but powerful enough to host an internal tool
 I have also utilized azurerm_Linux_web_app this gives us Linux and docker support for devops workflows
 
+To make this more secure we could make use of Azure Keyvaults to manage the secrets securely if required.
+Additionally a storage account could be utilized to manage the terraform backend state so enable versioning, changes from multiple people and increased security using RBAC
+
