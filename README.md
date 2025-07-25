@@ -19,3 +19,9 @@ To setup this project please download and install terraform and Azure CLI then p
 4. Run the below command to download the required provider plugins
   terraform init
 5. Run the below command to provision the resources in your Azure Subscription
+
+
+
+This project utilizies a B1 app service plan as this is cost effective but powerful enough to host an internal tool
+I have also utilized azurerm_Linux_web_app this gives us Linux and docker support for devops workflows
+
